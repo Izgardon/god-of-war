@@ -1,13 +1,13 @@
 .grid-container-bosses {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-
-  padding-left: 15%;
-  padding-right: 15%;
-  gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  margin-inline: 5rem;
+  row-gap: 4rem;
+  column-gap: 1rem;
   align-items: center;
   justify-content: center;
   justify-items: center;
+  color: rgb(41, 39, 39);
 }
 
 .card {
@@ -15,8 +15,24 @@
   background-color: whitesmoke;
 }
 
+.card > img {
+  width: 100%;
+  aspect-ratio: 0.9;
+  background-size: cover;
+}
+
 .btn-boss {
   background-color: rgb(129, 20, 17);
+  color: whitesmoke;
+}
+
+.bosses-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#bosses {
+  margin-top: -4rem;
 }
 
 * {
@@ -128,7 +144,7 @@ body {
   .about-container {
     flex-direction: column;
     margin-top: 12rem;
-    margin-bottom: 6rem;
+    margin-bottom: 5rem;
     gap: 3rem;
   }
 }
