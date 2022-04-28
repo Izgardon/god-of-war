@@ -1,3 +1,86 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.grid-container-bosses{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    background-color: red;
+    padding-left: 15%;
+    padding-right: 15%;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    
+
+}
+
+.card{
+    position: relative;
+    background-color: whitesmoke;
+}
+
+.btn-boss{
+    background-color: rgb(129, 20, 17);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -51,3 +134,4 @@ body {
 }
 
 @media;
+
